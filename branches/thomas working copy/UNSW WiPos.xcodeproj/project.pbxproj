@@ -23,9 +23,6 @@
 		31568A5D126FE26B0057B31E /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31568A5C126FE26B0057B31E /* MapAnnotation.m */; };
 		31574B46125D601900534024 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31574B45125D601900534024 /* CoreLocation.framework */; };
 		31733993124B0B3600822AFB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31733992124B0B3600822AFB /* FourthViewController.m */; };
-		31743D3C1335FB49002F36EA /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31743D3B1335FB49002F36EA /* SearchView.m */; };
-		31E1E8371336C4100067996E /* Level4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E8351336C4100067996E /* Level4.jpg */; };
-		31E1E8381336C4100067996E /* Green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E8361336C4100067996E /* Green.jpg */; };
 		31E73F821253609100362FB4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E73F801253609100362FB4 /* ThirdViewController.m */; };
 		31E73FB2125364C400362FB4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E73FB1125364C400362FB4 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -54,11 +51,7 @@
 		31574B45125D601900534024 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		31733991124B0B3600822AFB /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		31733992124B0B3600822AFB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		31743D3A1335FB49002F36EA /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchView.h; path = ../../../SearchView.h; sourceTree = SOURCE_ROOT; };
-		31743D3B1335FB49002F36EA /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchView.m; path = ../../../SearchView.m; sourceTree = SOURCE_ROOT; };
 		31A19A7B126EC41A0092105E /* WiPos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiPos-Info.plist"; sourceTree = "<group>"; };
-		31E1E8351336C4100067996E /* Level4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Level4.jpg; path = ../../Maps/elec/Level4.jpg; sourceTree = SOURCE_ROOT; };
-		31E1E8361336C4100067996E /* Green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Green.jpg; path = ../ScrollTest/Green.jpg; sourceTree = SOURCE_ROOT; };
 		31E73F801253609100362FB4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
 		31E73F811253609100362FB4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
 		31E73FB1125364C400362FB4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -96,8 +89,6 @@
 				31733992124B0B3600822AFB /* FourthViewController.m */,
 				31568A5B126FE26B0057B31E /* MapAnnotation.h */,
 				31568A5C126FE26B0057B31E /* MapAnnotation.m */,
-				31743D3A1335FB49002F36EA /* SearchView.h */,
-				31743D3B1335FB49002F36EA /* SearchView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,8 +133,6 @@
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* UNSW_WiPos-Info.plist */,
 				31491EEE1323156E001F1D20 /* unsw_logo.JPG */,
-				31E1E8351336C4100067996E /* Level4.jpg */,
-				31E1E8361336C4100067996E /* Green.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -215,8 +204,6 @@
 				311DE4AF124A066700E97336 /* ThirdView.xib in Resources */,
 				311DE4C8124A087C00E97336 /* FourthView.xib in Resources */,
 				31491EEF1323156E001F1D20 /* unsw_logo.JPG in Resources */,
-				31E1E8371336C4100067996E /* Level4.jpg in Resources */,
-				31E1E8381336C4100067996E /* Green.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +221,6 @@
 				31E73F821253609100362FB4 /* ThirdViewController.m in Sources */,
 				31568A5D126FE26B0057B31E /* MapAnnotation.m in Sources */,
 				31491F3213233672001F1D20 /* SecondViewController.m in Sources */,
-				31743D3C1335FB49002F36EA /* SearchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +271,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
