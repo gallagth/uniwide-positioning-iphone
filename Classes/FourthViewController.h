@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SearchView.h"
 #import "UNSW_WiPosAppDelegate.h"
 
 @interface FourthViewController : UIViewController {
     UIButton *buildingButton;
-    SearchView *srchView;
 }
 
 @property (nonatomic, retain) UIButton *buildingButton;

@@ -1,4 +1,3 @@
-    //
 //  FourthViewController.m
 //  UNSW WiPos
 //
@@ -49,8 +48,6 @@
 }
 
 - (void)bldgBtn_clicked {
-    srchView = [[SearchView alloc] initWithNibName:nil bundle:nil];
-    [self presentModalViewController:srchView animated:YES];
     
 }
 
@@ -80,7 +77,7 @@
 
 - (void)dealloc {
     /* IS VERY VERY BAD, BUT I HAVE NO CHOICE */
-    //[super dealloc];
+    [super dealloc];
 }
 
 
