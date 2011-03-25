@@ -48,7 +48,7 @@
 }
 
 - (void)bldgBtn_clicked {
-    
+    NSLog(@"building Button Clicked");
 }
 
 
@@ -68,15 +68,12 @@
 }
 
 - (void)viewDidUnload {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
     [self.buildingButton release];
+    [super viewDidUnload];
 }
 
 
 - (void)dealloc {
-    /* IS VERY VERY BAD, BUT I HAVE NO CHOICE */
     [super dealloc];
 }
 
